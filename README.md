@@ -13,12 +13,12 @@ while True:
         print("Invalid input")
         continue
     if smallest is None and largest is None:
-        smallest=int(num)
-        largest =int(num)
-    elif int(num)>largest :
-        largest=int(num)
-    elif int(num)<smallest:
-        smallest=int(num)
+        smallest=num
+        largest =num
+    elif num>largest :
+        largest=num
+    elif num<smallest:
+        smallest=num
        
     
     
